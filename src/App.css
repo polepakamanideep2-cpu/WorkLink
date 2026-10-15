@@ -1252,3 +1252,190 @@ body {
   width: 100%;
   font-size: 14px;
 }
+
+/* Additional Landing, Auth & Dashboard Enhancements */
+.features-grid-section {
+  padding: 60px 8%;
+  background: #ffffff;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 10px;
+}
+
+.section-title p {
+  color: #64748b;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.feature-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.footer-cta {
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  color: white;
+  padding: 70px 8%;
+  text-align: center;
+}
+
+.footer-cta h2 {
+  font-size: 32px;
+  color: white;
+  margin-bottom: 12px;
+}
+
+.footer-cta p {
+  color: #94a3b8;
+  font-size: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Auth Component Improvements */
+.input-label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #334155;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  text-align: left;
+}
+
+.role-selector-tabs {
+  display: flex;
+  background: #f1f5f9;
+  border-radius: 10px;
+  padding: 4px;
+  gap: 4px;
+}
+
+.role-tab {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: transparent;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  color: #64748b;
+  transition: all 0.2s ease;
+}
+
+.role-tab.active {
+  background: white;
+  color: #2563eb;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+
+.voice-prompt-banner {
+  background: #eff6ff;
+  border: 1px dashed #bfdbfe;
+  border-radius: 10px;
+  padding: 12px 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.voice-mini-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.demo-credentials-banner {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 12px;
+  text-align: left;
+}
+
+.demo-btn {
+  flex: 1;
+  background: white;
+  border: 1px solid #cbd5e1;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #334155;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  transition: all 0.15s ease;
+}
+
+.demo-btn:hover {
+  border-color: #2563eb;
+  color: #2563eb;
+}
+
+.emergency-checkbox-container {
+  background: #fff1f2;
+  border: 1px solid #fecdd3;
+  padding: 14px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+.urgent-apply-btn {
+  background: #dc2626;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 7px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 13px;
+  animation: pulse 2s infinite;
+}
+
+.applied-btn {
+  background: #e2e8f0;
+  color: #475569;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 7px;
+  font-weight: bold;
+  cursor: not-allowed;
+  font-size: 13px;
+}
+
+.rank-badge {
+  background: #2563eb;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 2px 7px;
+  border-radius: 6px;
+}
+
+.emergency-job-border {
+  border-left: 4px solid #ef4444;
+  padding-left: 12px;
+}
